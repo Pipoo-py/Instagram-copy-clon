@@ -1,0 +1,116 @@
+.modal-comments-bg{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+    z-index: 100;
+}
+
+.modal-comments{
+    background-color: #000;
+    max-width: 800px;
+    min-width: 450px;
+    margin: 30dvh auto;
+    color: #fff;
+}
+
+.modal-content{
+    display: flex;
+}
+
+.modal-media{
+    width: 200px;
+}
+
+.modal-media img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.modal-comment-info{
+    flex-grow: 1;
+}
+
+.modal-publication-info{
+    display: flex;
+    border-left: 1px solid #333;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding: 8px;
+}
+
+.modal-user-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.modal-user-img-container{
+    width: 42px;
+}
+
+.modal-user-img-container img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.modal-comment-user-info{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.modal-comment{
+    padding: 16px;
+}
+.modal-comment-user-img-container{
+    width: 42px;
+}
+.modal-comment-user-img-container img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.modal-comment-content{
+    font-size: .9rem;
+}
+
+.modal-comment-info .more-options{
+    padding: 12px;
+}
+
+.modal-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+}
+
+.modal-close i{
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.modal-comments-container{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+@media screen and (min-width: 300px) and (max-width: 48.44rem){
+    .modal-media{
+        width: 100px;
+    }
+
+    .more-options{
+        margin-right: 80px;
+    }
+}

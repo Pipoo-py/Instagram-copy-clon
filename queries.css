@@ -1,0 +1,66 @@
+@media screen and (min-width: 48.44rem){
+    .header__phone-container{
+        display: none;
+    }
+    .nav__container{
+        max-width: 50px;
+        height: 100%;
+        border-top: none;
+        border-right: 1px solid #333;
+    }
+
+    .li-ig{
+        margin-top: 50px;
+    }
+    .nav__list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav__list li{
+        padding: 6px;
+    }
+
+    .nav__list span{
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    .nav-query-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .histories__container{
+        margin: auto;
+        max-width: 650px;
+    }
+
+    .nav__list li:hover{
+        background-color: #333a;
+        border-radius: 5px;
+        scale: 1.10;
+    }
+}
+
+@media screen and (min-width: 79.44rem){
+    .nav__container{
+        max-width: 150px;
+    }
+
+    .nav__list li{
+        color: #fff;
+    }
+
+    .nav__container li a{
+        color: #fff;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
